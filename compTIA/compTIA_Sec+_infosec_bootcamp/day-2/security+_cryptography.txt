@@ -1,0 +1,181 @@
+eog .png file name
+
+steghide extract -sf clue.jpg
+cat hiddent.txt
+
+awk '{print}' * > salted.txt
+
+openssl enc -d -des-ecb -in des-ecb.enc -out des-ecb.txt
+
+openssl enc -d -des-ecb -in des-ecb.enc -out des-ecb.txt
+
+openssl enc -d -des-cbc -in des-cbc.enc -out des-cbc.txt
+
+----------------------------------------------------------------------------------------
+
+OpenSSL to decrypt a file. The command shown is:
+
+```bash
+openssl enc -d -des-ecb -in des-ecb.enc -out des-ecb.txt
+```
+
+ Explanation of the Command:
+- `openssl`: The OpenSSL command-line tool, used for encryption and decryption tasks.
+- `enc`: Specifies the encoding command.
+- `-d`: Denotes decryption mode.
+- `-des-ecb`: Specifies the DES algorithm in ECB (Electronic Codebook) mode.
+- `-in des-ecb.enc`: The input file to decrypt (`des-ecb.enc`).
+- `-out des-ecb.txt`: The output file where the decrypted content is saved (`des-ecb.txt`).
+
+After running this command, you are prompted to enter a password, which appears to be "secure" in this case.
+
+ Additional Commands:
+After decryption, you used:
+```bash
+cat des-ecb.txt
+```
+This command displays the contents of the decrypted file (`des-ecb.txt`) to verify the decryption.
+----------------------------------------------------------------------------------------
+
+The image you uploaded shows instructions for a cryptography lab exercise using OpenSSL in a Security+ course. 
+The lab steps include:
+
+1. OpenSSL Decryption Command:
+   - Run the following command to decrypt a DES ECB encrypted file:
+     ```bash
+     openssl enc -d -des-ecb -in des-ecb.enc -out des-ecb.txt
+     ```
+   - This command specifies decryption (`-d`) using DES in ECB mode, with `des-ecb.enc` as the input file and `des-ecb.txt` as the output.
+
+2. Password Prompt:
+   - When prompted, enter the password `secure`.
+
+3. Viewing the Decrypted File:
+   - To verify the decryption, display the contents of `des-ecb.txt` using:
+     ```bash
+     cat des-ecb.txt
+     ```
+
+This sequence will decrypt the `des-ecb.enc` file and show the decrypted content. 
+----------------------------------------------------------------------------------------
+The new image shows instructions for decrypting a DES CBC encrypted file. Here are the steps provided in the lab:
+
+1. Decryption Command for DES CBC:
+   - Use the following command to decrypt a file encrypted with DES in CBC mode:
+     ```bash
+     openssl enc -d -des-cbc -in des-cbc.enc -out des-cbc.txt
+     ```
+   - This command specifies decryption (`-d`) using DES in CBC (Cipher Block Chaining) mode, with `des-cbc.enc` as the input file and `des-cbc.txt` as the output file.
+
+2. Password Prompt:
+   - Enter the password `secure` when prompted.
+
+3. View the Decrypted File:
+   - To verify the decryption, display the contents of `des-cbc.txt` using:
+     ```bash
+     cat des-cbc.txt
+     ```
+
+Following these steps will decrypt the `des-cbc.enc` file and output the plaintext to `des-cbc.txt`. If you need further assistance with OpenSSL or decryption steps, feel free to ask!
+
+
+----------------------------------------------------------------------------------------
+The image shows instructions for decrypting a file encrypted with 3DES in ECB mode. Here are the steps:
+
+1. Decryption Command for 3DES ECB:
+   - Use the following command to decrypt a file encrypted with 3DES in ECB mode:
+     ```bash
+     openssl enc -d -des-ede3-ecb -in 3des-ecb.enc -out 3des-ecb.txt
+     ```
+   - This command specifies decryption (`-d`) using 3DES (Triple DES) in ECB (Electronic Codebook) mode, with `3des-ecb.enc` as the input file and `3des-ecb.txt` as the output file.
+
+2. Password Prompt:
+   - When prompted, enter the password `secure`.
+
+3. View the Decrypted File:
+   - To verify the decryption, display the contents of `3des-ecb.txt` using:
+     ```bash
+     cat 3des-ecb.txt
+     ```
+
+Following these steps will decrypt the `3des-ecb.enc` file and display the plaintext content in `3des-ecb.txt`. Let me know if you need further assistance!
+----------------------------------------------------------------------------------------
+The image shows instructions for decrypting a file encrypted with 3DES in CBC mode. Here are the steps:
+
+1. Decryption Command for 3DES CBC:
+   - Use the following command to decrypt a file encrypted with 3DES in CBC mode:
+     ```bash
+     openssl enc -d -des-ede3-cbc -in 3des-cbc.enc -out 3des-cbc.txt
+     ```
+   - This command specifies decryption (`-d`) using 3DES (Triple DES) in CBC (Cipher Block Chaining) mode, with `3des-cbc.enc` as the input file and `3des-cbc.txt` as the output file.
+
+2. Password Prompt:
+   - When prompted, enter the password `secure`.
+
+3. View the Decrypted File:
+   - To verify the decryption, display the contents of `3des-cbc.txt` using:
+     ```bash
+     cat 3des-cbc.txt
+     ```
+
+These steps will decrypt the `3des-cbc.enc` file and output the decrypted content to `3des-cbc.txt`. Let me know if you need any further help!
+----------------------------------------------------------------------------------------
+  
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------

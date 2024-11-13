@@ -1,0 +1,21 @@
+A *code signature* is a digital signature applied to software or code to verify its authenticity and integrity. Code signing is a security measure that allows users to confirm that the code they are downloading or running comes from a trusted source and hasn’t been tampered with.
+
+ How Code Signing Works
+
+1. Generate a Digital Signature: The developer or organization uses a private key from a code-signing certificate to create a unique digital signature for the code.
+2. Attach the Signature to the Code: This digital signature is embedded into the software.
+3. Verify with Public Key: When users download or run the software, their device or operating system uses the developer’s public key (available through a certificate authority) to verify the signature.
+
+ Benefits of Code Signing
+
+- Authenticity: It confirms the identity of the developer or publisher, showing users that the code comes from a legitimate source.
+- Integrity: It verifies that the code has not been altered since it was signed. If any modifications are made, the signature will be invalid, signaling potential tampering.
+- Trust and Security: Users are more likely to trust software that is signed, as it’s less likely to be malicious or harmful.
+
+ Use Cases
+
+- Software Distribution: Operating systems like Windows and macOS use code signatures to validate applications before they are installed.
+- Updates: Code signing ensures that software updates come from the original developer and are not malicious.
+- Scripts and Executables: In corporate environments, scripts and executables are often signed to prevent unauthorized or malicious scripts from running.
+
+In essence, code signing is an essential security measure to prevent the spread of malware and unauthorized code modifications.
