@@ -1,0 +1,13 @@
+Active Directory (AD) is a directory service developed by Microsoft that allows centralized management of users, computers, and other resources in a network. It is primarily used in corporate environments to handle identity and access management for domain networks. Active Directory organizes resources in a hierarchical structure using domains, organizational units (OUs), and groups, making it easy for administrators to manage and enforce policies across the organization.
+
+Active Directory uses LDAP (Lightweight Directory Access Protocol) for accessing and managing directory information and provides a centralized database where all user and computer information, permissions, and settings are stored. Common components of Active Directory include:
+- Users and Groups: User accounts are created and managed in AD to control access to resources, while groups allow administrators to assign permissions to multiple users simultaneously.
+- Organizational Units (OUs): OUs are containers used to organize users, computers, and other resources within a domain.
+- Domains and Trusts: Domains are groups of related users and devices that share common security policies, while trusts allow domains to access resources in other domains.
+
+Kerberos is an authentication protocol used in Active Directory environments to provide secure authentication for users and services. Kerberos uses a ticket-based system to enable single sign-on (SSO), allowing users to authenticate once and access multiple services without re-entering credentials. Here’s how it works:
+1. TGT (Ticket Granting Ticket): When a user logs in, they provide their credentials to the AD server, which then issues a TGT. This TGT is encrypted and used to request further access.
+2. Service Tickets: When the user tries to access a service (e.g., a mail server), they present the TGT to the Kerberos Ticket Granting Service, which then provides a service ticket for that specific resource.
+3. Session Tickets: For mutual authentication, the service provides a session ticket back to the user, completing a secure, encrypted connection.
+
+Kerberos relies on synchronized time across all devices and servers in the network, and it enforces mutual authentication between the user and services to protect against unauthorized access. The protocol helps reduce the need for repeated logins, enhances security, and ensures that credentials are not sent directly to the network services, making it a key component of AD environments.
